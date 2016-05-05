@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <!-- make sure that the jquery comes before the bootstrap otherwise the collapse will nto work! -->
+    <!-- Latest Jquery complied from google -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    
+
+        <!-- SANDSTONE THEME BOOTSTRAP CDN-->
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-QqZs0aSOGFan3GWVdP4PyCBp6icaF/4n8Q+wsmZUTiiVIqE4r4tFYcb8Osf+8y45" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="sample.css">
+    <script src="javascript.js"></script>
+    
+    
+    
+        
+    <a href="index.html"><img src="logo.jpg" class="center-block"></a>
+    
+
+    
+    <nav class="navbar navbar-inverse" id="kek">
+    <div class="container">
+        <div class="navbar-header">
+            
+            <a class="navbar-brand" href="#">Think Tank</a>
+            
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Socratics</a></li>
+                </li>
+            
+            </ul>
+        
+        </div>
+        </div>
+    </nav>
+<!--Font Awesome-->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+<body>
+    
+    <a name="#0"></a>
+
+    <!--End of Navbar-->
+    <!--body-->
+    <div id="firstpage">
+      <div class="jumbotron">
+        <div class="container">
+ 
+            <h1 class="text-center">Welcome to Think Tank!</h1>
+            <h2 class="text-center"><small>Club at East Leyden High School</small></h2>
+
+    </div>
+    </div>
+    </div>
+    <h2 class="text-center">Check out "A Night in Their Shoes"!</h2>
+  <div class="think">
+        <div style="text-align:center">
+    <a href="#humanrights">
+        <i class="fa fa-angle-double-down fa-4x text-center animated"></i>
+    </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="header">
+        <div id="verticalCenter">
+        <h1 class="text-center" style="font-size:70px;">A Night In Their Shoes</h1>
+        <h2 class="text-center">May 6, 2016</h2>
+        </div>
+        <center><a href="#event" class="btn btn-default btn-lg text-center">Read more</a></center>
+    </div>
+    <a name="humanrights"></a>
+    <!-- Body-->
+  
+    
+    
+  
+    
+    	<script>
+            
+            // Smooth Scrolling
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+	</script>
+
+    
+    <!--bottom to top button-->
+    <a href="#0" class="cd-top"></a>
+</body>
+</html>
